@@ -1,0 +1,14 @@
+:root {
+    --background: #0063e5;
+    --login: #0464e2;
+    --facebook: #094b95;
+    --google: #d1453b;
+    --twitter: #62bce6;
+}
+
+body {
+    background: var(--background);
+    border: 0;
+    margin: 0;
+    padding: 0;
+}

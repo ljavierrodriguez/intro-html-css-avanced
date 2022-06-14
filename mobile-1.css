@@ -1,0 +1,112 @@
+@media screen and (min-width: 540px) and (max-width: 979px){
+    .login-form {
+        width: 100%;
+        height: 100vh;
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .login-form .form .header {
+        width: 100%;
+        height: 50px;
+        background-color: #cccccc;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid red;
+    }
+    
+    .login-form .form .header .icono {
+        margin-left: auto;
+    }
+    
+    
+    .login-form .picture {
+        background: red;
+        width: 100%;
+        height: 40vh;
+        background: url('./fondo.jpeg');
+        background-size: cover;
+        /* height: 400px; */
+        /* float: left; */
+    }
+    
+    .login-form .form {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* float: right; */
+    }
+    
+    
+    .login-form .form h3,
+    .login-form .form h5 {
+        color: gray;
+    }
+    
+    .login-form .form .input {
+        width: 80%;
+        border: 1px solid #cccccc;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        margin: 5px 0;
+    }
+    
+    .login-form .form .input input {
+        width: 100%;
+        margin: 0 5px;
+        border: 0;
+    }
+    
+    .login-form .form .input .fa-envelope,
+    .login-form .form .input .fa-key {
+        color: var(--login);
+    }
+    
+    .login-form .form .btnLogin {
+        width: 83%;
+        height: 35px;
+        background-color: var(--login);
+        color: white;
+        border: 0;
+        border-radius: 20px;
+        margin: 5px 0;
+    }
+    
+    .login-form .form .social {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .login-form .form .social .button {
+        width: 26%;
+        padding: 5px;
+        font-size: 12px;
+        border: 0;
+    }
+    
+    .login-form .form .social .button-facebook {
+        color: white;
+        background-color: var(--facebook);
+    }
+    
+    .login-form .form .social .button-google {
+        color: white;
+        background-color: var(--google);
+    }
+    
+    .login-form .form .social .button-twitter {
+        color: white;
+        background-color: var(--twitter);
+    }
+}
